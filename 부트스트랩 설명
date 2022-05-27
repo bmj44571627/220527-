@@ -1,0 +1,104 @@
+# Ⅰ Bootstrap
+
+<br>
+
+
+>## 1 부트스트랩이란?
+
+---
+
+부트스트랩이란 웹 개발에 있어 보편적으로 널리 쓰이는 구성 요소들을 미리 디자인해둔 툴킷`toolkit`이다. 각종 `UI Component` 들을 모아 놓은 묶음이며 간단한 스크립트와 `HTML/CSS`만으로 깔끔한 형태의 `UI/UX`를 구성할 수 있다.
+
+<br>
+
+>## 2 CDN이란?
+
+---
+부트스트랩 웹 사이트에서 코드를 바로 가져오는 방식을 `CDN(contents delivery network)`이라 하며 이용 빈도가 높은 CSS, JS파일을 모아둔 곳이다.
+
+<br>
+
+>## 3 스크립트 로드
+
+---
+스크립트 파일은 jQuery, Bootstrap 본체가 있는데 `<body>` 태그의 로드가 완료된 후에 로드한다.
+
+<br>
+
+>## 4 표시 내용은 컨테이너를 `class` 선택자로
+
+`<body>` 안에는 `<div class="container>` 태그가 있고 그 안에 내용이 있다.
+
+`.Container` 태그는 내용 주위에 약간의 여백을 제공하며 컨테이너 지정이 없다면 처음부터 끝까지 꽉차게 표시된다.
+
+<br>
+
+
+>## 5 Bootstrap의 구성
+
+---
+
+* CSS stylesheet
+
+html 자체기능을 확장 강화하며 Bootstrap의 UI 요소를 가장 간단하게 사용할 수 있는 방법으로 `class`들을 `tag`에 적용하여 사용하는 방법이다.
+
+<br>
+
+```css
+`<a class="btn btn-primary"> link with bootstrap</a>`
+
+`<a>link without bootstrap</a>`
+```
+
+<br>
+
+|속성|설명|
+|--|--|
+|Overview|개요|
+|Grid system|Grid 영역구분을 해주는 Layout 체계
+|Typography|텍스트 서식을 위한 스타일|
+|Tables|테이블 스타일|
+|Forms|폼 스타일|
+|Buttons|버튼 스타일|
+|Images|이미지 스타일|
+|Helper classes|자주 사용하는 기능을 모아 놓은 유틸|
+|Responsive utilities|반응형 페이지 동작을 위한 유틸|
+
+<br>
+
+* Reusable component
+
+css와 javascript의 조합을 통해 다양하게 제공한다. 아래와 같은 컴포넌트들을 사용할 때는 class 선택자 입력만으로 가능하다.
+<br>
+
+|컴포넌트|설명|
+|--|--|
+|Dropdowns|드랍다운 형태를 만들어주는 컨테이너 컴포넌트|
+|Button groups|버튼 그룹 컴포넌트|
+|Navs|탭/버튼 형태의 각종 네비 버튼 묶음|
+|Pagination|페이징 컴포넌트|
+|Thumbnails|썸네일 컴포넌트|
+|Media Object|자료를 목록형태로 표시|
+|Responsive embed| embed로 삽입된 객체의 반응형 처리|
+
+<br>
+
+* Javascript component
+
+jQuery를 이용하여 보다 다양한 Bootstrap의 기능들을 사용할 수 있다.
+<br>
+
+|기능|설명|
+|--|--|
+|Transtion|전환 효과 플러그인|
+|Modal|모달 팝업|
+|Dropdown|드롭다운 메뉴|
+|Popover|풍선 도움말|
+|Affix|스크롤 고정|
+
+<br>
+
+* Customize Bootstrap
+
+로딩 부하를 줄이기 위해 필요한 기능만을 담은 Bootstrap files를 생성하는 기능이며 각종 옵션들을 자신의 의도에 맞게 수정가능하다. 
+
